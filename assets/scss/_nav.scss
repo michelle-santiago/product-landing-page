@@ -1,0 +1,43 @@
+//new for product landing
+  #navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    //padding: 10px;
+    color: white;
+    background-color: #382829;
+  }
+  .nav-link{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-link:hover{
+    //background-color: #d39b46;
+    color: #d39b46;
+  }
+  #navbar a.icon{
+    display: none;
+  }
+@media (max-width: 768px) {
+  #navbar a.icon{
+    display: block;
+  }
+  #navbar .navlist1 {
+    display: none;
+  }
+}
+#hidden-navlist{
+  display: none;
+}
+#hidden-navlist a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+#hidden-navlist .nav-link:hover{
+  //background-color: #d39b46;
+  color: #d39b46;
+}
