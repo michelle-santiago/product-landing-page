@@ -16,7 +16,6 @@
 .title{
   font-size: 24px;
   color: #f6ab4a;
-  //color:#000;
   text-align: center;
 }
 
@@ -24,7 +23,7 @@
     color:#956b45;
     font-weight: 700;
 }
-//Main
+
 #main{
   background-image: url("img/tahos2.png");
   min-height: 600px; 
@@ -43,135 +42,48 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  //position: absolute;
-  //top: 50%;
-  //left: 50%;
   font-size: 50px;
   text-shadow: 4px 4px #ffffff;
-  //transform: translate(-50%, -50%);
   color: #352618;
 }
 
-.animate-title {
-  display:inline-block;
-  overflow:hidden;
-}
-
-.animate-title:first-of-type {    
-  animation: showup 7s infinite;
-}
-
-.animate-title:last-of-type {
-  width:0px;
-  animation: reveal 7s infinite;
-}
-
-.animate-title:last-of-type span {
-  margin-left:-500px;
-  animation: slidein 7s infinite;
-}
-
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:1;}
-}
-
-@keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
-
-@keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:750px;}
-    80% {opacity:1;}
-    100% {opacity:1;width:750px;}
-}
-@media (max-width: 1075px) {
-  .animate-title {
-    display: none;
-   // display:contents;
-    //justify-content: space-around;
-    //justify-content: left;
-    //flex-direction: column;
-    //overflow:visible;
-    //width: 100%;
-    
-  }
- 
-  .hidden-title{
-    display: block;
-  }
- /* .animate-title span{
-   
-    //display: block;
-  }
-  .animate-title:first-of-type{
-    animation: none;
-  }
-  .animate-title:last-of-type{
-    //width:500px;
-   // margin-right: 500px;
-    animation: none;
-  }
-  .animate-title:last-of-type span{
-    //margin-left:500px;
-    animation: none;
-  }*/
-}
-//Product
 #product{
-     // background-color: white;
      width: 100%;
      padding-left: 5%;
       padding-right:5%;
       margin: auto;
       padding-top:120px;
       background-color:#ffffff;
-      //color: white;
 }
 #product-video{
    margin: auto;
     width: 100%;
     overflow: hidden;
 }
-//Benefits
+
 .benefits{
-    //box-shadow: 0 4px 8px 0 #242323;
     margin: auto;
     width: 100%;
     justify-content: center;
-    //background-color: #000000;
     padding: 30px;
     text-align: center;
   }
 .benefits-card{
-    //box-shadow: 0 4px 8px 0 #ffffff;
     border:1px solid #ffffff;
     padding: 10px;
     text-align: center;
     background-color: #efe3d5;
-    //color: #ffffff;
 }
 .icons{
     font-size: 50px;  
 }
-//Must Try( Favourites)
+
 #favourites{
-  //padding: 40px;
-  //width: 100vw;//bawal ito why
   padding-top: 120px;
   padding-left: 10%;
   padding-right: 10%;
-  //padding: 20px;
   margin: auto;
   text-align: center;
-  //width: 100%;
   background-color: white;
 }
 .favourites-card {
@@ -217,11 +129,8 @@
   justify-content: center;
   background-color: white;
   box-shadow: 0 4px 8px 0 #353232;
-  //background-color: #f6ab4a;
-  //background-color:#382829;
   padding: 30px;
   color: #000;
-  //text-align: center;  
 }
 .ref{
   color:#000000;

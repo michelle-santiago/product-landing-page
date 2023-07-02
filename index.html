@@ -1,239 +1,217 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-        <link rel="stylesheet" href="dist/style.css">
-        <script src="https://kit.fontawesome.com/ee315df075.js" crossorigin="anonymous"></script>
-        
-        <title>Product Landing Page</title>
-    </head>
-    <body> 
-        <div class="container"> 
-                  
-            <header id="header">
-                <nav id="navbar">
-                    <a href="#home" class="nav-link"><img src="dist/img/taho-logo3.jpg" id="header-img"></a>
-                    <a href="#product" class="nav-link navlist1">PRODUCT</a>
-                    <a href="#favourites" class="nav-link navlist1">MUST-TRY</a>
-                    <a href="#reviews" class="nav-link navlist1">REVIEWS</a>
-                   
-                    <a class="icon nav-link" onclick="toggle_nav()">
-                        <i class="fa-solid fa-bars"></i>
-                    </a> 
-                </nav>
-                <nav id="hidden-navlist" onclick="toggle_nav()">
-                    <a href="#home" class="nav-link">Home</a>
-                    <a href="#product" class="nav-link">Product</a>
-                    <a href="#favourites" class="nav-link">Favourites</a> 
-                    <a href="#reviews" class="nav-link">Reviews</a>
-                        
-                </nav>
-            </header>
-            <main id="main" class="img-fluid">
-                <h1 class="main-title">
-                    <div class="animate-title">
-                        Experience 
-                    </div>
-                    <div class="animate-title">
-                        <span> taho goodness like no other</span>
-                    </div>
-                    <p class="hidden-title">Experience taho goodness like no other</p>
-                </h1>
-            </main>
-            <section id="product">
-                <h1 class="title">OUR PRODUCT</h1>  
-                <div class="row4">
-                    <div class="col5">
-                        <p id="product-description">      
-                            <p><span class="highlight">Taho Klasiko</span> reinvented taho by adding the concept of milk tea. We now have 9 branches around Luzon 
-                            and our main branch can be found at #97 Maysan Road, Maysan 1440 Valenzuela, Philippines. </p>
-                            <p class="highlight">Our very own chilled taho is available in Classic, Brown Sugar, Milky Taho, Matcha Taho, Taho de Cacao & Yakult Taho.</p>
-                            <p><span class="highlight">Also available: </span> Taho Sorbetes, Soya Milk & Taho in a tub</p>
-                            <p><span class="highlight">New:</span> Cheese Taho & Caramel Taho </p>
-                            <a class="btn" href="https://www.facebook.com/TahoKlasiko" target="_blank" role="button">Order now</a>
-                            <p><small>Available via Grabfood and Foodpanda!</small></p>     
-                    </div>
-                    <div class="col6">
-                        <embed type="video/webm" src="dist/video/philstar-taho-klasiko2.mp4" width="200" height="450" id="product-video">
-                        <!--iframe width="253" height="480" src="https://www.youtube.com/embed/XQG1Gcfr4Jo" title="Dating mga guro nagsimula ng taho ala milk tea business no'ng pandemic, meron nang 11 branches!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
-                    </div>     
-                </div>
-                <div class="benefits">
-                    <h1 class="title">Health Benefits of Taho & Soya Milk</h1>
-                    <div class="row">
-                        <div class="benefits-card">
-                            <p><i class="fa fa-check"></i></i></p>
-                            <p>High Source of Protein</p>
-                        </div>               
-                        <div class="benefits-card">
-                            <p><i class="fa fa-check"></i></i></p>
-                            <p>Strengthens Bones</p>
-                        </div>   
-                        <div class="benefits-card">
-                            <p><i class="fa fa-check"></i></p>
-                            <p>Rich in Dietary Fiber & Isoflavone</p>
-                        </div>
-                        <div class="benefits-card">
-                            <p><i class="fa fa-check"></i></p>
-                            <p>Prevents Heart Diseases</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="favourites">
-                <h1 class="title">MUST-TRY</h1>
-                <div class="row5">
-                    <div class="favourites-card">
-                        <img src="dist/img/classic.jpg" >
-                        <h1>Classic Taho</h1>
-                        <!--p class="price">GRANDE 59 VENTI 79</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card" >
-                        <img src="dist/img/milky-taho.jpg">
-                        <h1>Milky Taho</h1>
-                        <!--p class="price">VENTI 99</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/avocado.jpg" >
-                        <h1>Avocado Taho</h1>
-                        <!--p class="price">GRANDE 99 VENTI 119</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/strawberry.jpg" >
-                        <h1>Strawberry Taho</h1>
-                        <!--p class="price">GRANDE 109</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/cookies.jpg" >
-                        <h1>Cookies n' Cream</h1>
-                        <!--p class="price">GRANDE 99 VENTI 119</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/classicsoya.jpg" >
-                        <h1>Classic Soya</h1>
-                        <!--p class="price">GRANDE 49 VENTI 69</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/matchaSoy.jpg" >
-                        <h1>Matcha Soya</h1>
-                        <!--p class="price">VENTI 89</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                    <div class="favourites-card">
-                        <img src="dist/img/caramel.jpg" >
-                        <h1>Caramel Macchiato</h1>
-                        <!--p class="price">GRANDE 89</p>
-                        <p><button>Order Now</button></p-->
-                    </div>
-                </div>
-            </section>
-            <section id="branches">
-                <h1 class="title">BRANCHES</h1>
-                <div class="row">
-                    <div class="col">
-                    <p><a href="https://www.facebook.com/TahoKlasiko" class="ref" target="_blank">Taho Klasiko - Main (Maysan, Valenzuela) </a></p>
-                    <p><a href="https://www.facebook.com/tahoklasikotondo/" class="ref" target="_blank">Taho Klasiko - Tondo</a></p>
-                    <p><a href="https://www.facebook.com/tahoklasikomeycauayan/" class="ref" target="_blank">Taho Klasiko - Meycauayan</a></p>
-                    <p><a href="https://www.facebook.com/TahoKlasikoCaloocan/" class="ref" target="_blank">Taho Klasiko - Caloocan</a></p>
-                    <p><a href="https://www.facebook.com/TahoKlasikoCommonwealth/" class="ref" target="_blank">Taho Klasiko - Commonwealth</a></p>
-                    </div>
-                    <div class="col">
-                    <p><a href="https://www.facebook.com/tahoklasiko.calumpit/" class="ref" target="_blank">Taho Klasiko - Calumpit</a></p>
-                    <p><a href="" class="ref" target="_blank">Taho Klasiko - San Jose Del Monte (relocating)</a></p>
-                    <p><a href="https://www.facebook.com/tahoklasikoSPC/" class="ref" target="_blank">Taho Klasiko - San Pablo</a></p>
-                    <p><a href="https://www.facebook.com/Taho-Klasiko-Punturin-101054405148203/" class="ref" target="_blank">Taho Klasiko - Punturin</a></p>
-                    </div>
-                </div>
-            </section>
-            <section id="parallax"></section>
-            
-            <section id="reviews">
-                <h1 class="title">REVIEWS</h1>
-                <p><strong><h2 class="title">What our customers say</h2></strong></p>
-                <div class="rating">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star"></i>
-                    <p>4.9 average based on 31 reviews.</p>
-                </div>
-                <div class="reviewshow-container">            
-                    <div class="myreviews">
-                        <q>I love their Cinnamon Rolls and Taho Beverages! I like the fact that their Cinnamon Rolls are sweet and full of flavor. The filling has a punch of cinnamon and the icing is ooey-gooey, not too sweet, but very lush.Their Taho Beverages are delicious and fun to eat. I love how their tofu base is finer than custard which practically disintegrates in my mouth.
-                        Great food with reasonable prices. Also Loved how accommodating their staff is. Will Definitely order again ❤️
-                        </q>
-                        <p class="customer">- Denise Magbitang</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>So happy someone shared this page to me. I am a taho-lover ever since and now I love it even more! Ordered Classic Taho for me and Brown Sugar for the fam. Super saraaaaap! The whole family loved it. We ordered na twice and we'll surely order again! ⭐⭐⭐⭐⭐</q>
-                        <p class="customer">- Lei Sison-Cunanan</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>It's really yummy! I can prove that kasi my sister is a picky eater pero she liked it 😂 we ordered milky taho and we’d love to try other flavors next time ☺️ It’s also very easy to order!</q>
-                        <p class="customer">-Julianne Kelly Tan</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>Yung nag crave ka nang taho sa maulang panahon. Thanks so much seller, for the smooth transaction. And kahit maulan tuloy ang delivery.
-                            Cravings satisfied. Sarap. Highly recommended.</q>
-                        <p class="customer">-Sugs MV</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>first time to try and im switching to your taho instead of milktea! healthy na super yummy pa! ❤️</q>
-                        <p class="customer">-Zera</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>Classic taho pa lang natikman ko pero mas masarap sya sa ordinary taho. Syempre di pa rin mawawala ung panlasang pinoy na taho. Very affordable pa. Swak sa pang-araw-araw na taste.</q>
-                        <p class="customer">-Mary Hazel</p>
-                    </div>
-                    <div class="myreviews">
-                        <q>Ang sarap grabe tapos ang affordable. Yung mga staff din madali kausap to arrange my delivery. I highly recommend them! Try them out!</q>
-                        <p class="customer">-Roxanne Flores</p>
-                    </div>
-                    
-                    <a class="prev" onclick="plusreviews(-1)">❮</a>
-                    <a class="next" onclick="plusreviews(1)">❯</a>
-                    
-                </div>
-                    <div class="dot-container">
-                      <span class="dot" onclick="currentreview(1)"></span> 
-                      <span class="dot" onclick="currentreview(2)"></span> 
-                      <span class="dot" onclick="currentreview(3)"></span> 
-                      <span class="dot" onclick="currentreview(4)"></span> 
-                      <span class="dot" onclick="currentreview(5)"></span> 
-                      <span class="dot" onclick="currentreview(6)"></span> 
-                      <span class="dot" onclick="currentreview(7)"></span> 
-                    </div>
-            </section>
-            <section id="form">
-                <h1 class="title">Get to know our latest products, discounts and deals</h1>
-                <form novalidate name="form" onsubmit="return checkform()" action="https://formcarry.com/s/9o--Qiel3" method="POST" accept-charset="UTF-8">
-                    <div class="row4">
-                        <div class="col4">
-                            <input type="text" placeholder="Name" name="name" id="name" class="no-outline" onchange="nameCheck()">
-                            <p id="validation-name"></p>
-                        </div>
-                        <div class="col4">
-                            <input type="email" placeholder="Email address" name="email" id="email" class="no-outline" onchange="emailCheck()">
-                            <p id="validation-email"></p>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn" >Yes, Notify me!</button>
-                </form>
-            </section>
-            
-        </div>        
-        
-        <footer><p>©2022 Product Landing Page</p>
-        </footer>
-        <script src="assets/js/index.js"></script>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+		<link rel="stylesheet" href="dist/style.css">
+		<script src="https://kit.fontawesome.com/ee315df075.js" crossorigin="anonymous"></script>
+		
+		<title>Product Landing Page</title>
+	</head>
+	<body> 
+		<div class="container"> 
+			<header id="header">
+				<nav id="navbar">
+					<a href="#home" class="nav-link"><img src="dist/img/taho-logo3.jpg" id="header-img"></a>
+					<a href="#product" class="nav-link navlist1">PRODUCT</a>
+					<a href="#favourites" class="nav-link navlist1">MUST-TRY</a>
+					<a href="#reviews" class="nav-link navlist1">REVIEWS</a>
+					
+					<a class="icon nav-link" onclick="toggle_nav()">
+						<i class="fa-solid fa-bars"></i>
+					</a> 
+				</nav>
 
+				<nav id="hidden-navlist" onclick="toggle_nav()">
+					<a href="#home" class="nav-link">Home</a>
+					<a href="#product" class="nav-link">Product</a>
+					<a href="#favourites" class="nav-link">Favourites</a> 
+					<a href="#reviews" class="nav-link">Reviews</a>
+				</nav>
+
+			</header>
+			<main id="main" class="img-fluid">
+				<h1 class="main-title">
+					Experience taho goodness like no other
+				</h1>
+			</main>
+
+			<section id="product">
+				<h1 class="title">OUR PRODUCT</h1>  
+				<div class="row4">
+					<div class="col5">
+						<div id="product-description">
+							<p><span class="highlight">Taho Klasiko</span> reinvented taho by adding the concept of milk tea. We now have 9 branches around Luzon 
+							and our main branch can be found at #97 Maysan Road, Maysan 1440 Valenzuela, Philippines. </p>
+							<p class="highlight">Our very own chilled taho is available in Classic, Brown Sugar, Milky Taho, Matcha Taho, Taho de Cacao & Yakult Taho.</p>
+							<p><span class="highlight">Also available: </span> Taho Sorbetes, Soya Milk & Taho in a tub</p>
+							<p><span class="highlight">New:</span> Cheese Taho & Caramel Taho </p>
+							<a class="btn" href="https://www.facebook.com/TahoKlasiko" target="_blank" role="button">Order now</a>
+							<p><small>Available via Grabfood and Foodpanda!</small></p>     
+						</div>
+					</div>
+					<div class="col6">
+						<embed type="video/webm" src="dist/video/philstar-taho-klasiko2.mp4" width="200" height="450" id="product-video">
+					</div>     
+				</div>
+
+				<div class="benefits">
+					<h1 class="title">Health Benefits of Taho & Soya Milk</h1>
+					<div class="row">
+						<div class="benefits-card">
+							<p><i class="fa fa-check"></i></i></p>
+							<p>High Source of Protein</p>
+						</div>               
+						<div class="benefits-card">
+							<p><i class="fa fa-check"></i></i></p>
+							<p>Strengthens Bones</p>
+						</div>   
+						<div class="benefits-card">
+							<p><i class="fa fa-check"></i></p>
+							<p>Rich in Dietary Fiber & Isoflavone</p>
+						</div>
+						<div class="benefits-card">
+							<p><i class="fa fa-check"></i></p>
+							<p>Prevents Heart Diseases</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="favourites">
+				<h1 class="title">MUST-TRY</h1>
+				<div class="row5">
+					<div class="favourites-card">
+						<img src="dist/img/classic.jpg" >
+						<h1>Classic Taho</h1>
+					</div>
+					<div class="favourites-card" >
+						<img src="dist/img/milky-taho.jpg">
+						<h1>Milky Taho</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/avocado.jpg" >
+						<h1>Avocado Taho</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/strawberry.jpg" >
+						<h1>Strawberry Taho</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/cookies.jpg" >
+						<h1>Cookies n' Cream</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/classicsoya.jpg" >
+						<h1>Classic Soya</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/matchaSoy.jpg" >
+						<h1>Matcha Soya</h1>
+					</div>
+					<div class="favourites-card">
+						<img src="dist/img/caramel.jpg" >
+						<h1>Caramel Macchiato</h1>
+					</div>
+				</div>
+			</section>
+
+			<section id="branches">
+				<h1 class="title">BRANCHES</h1>
+				<div class="row">
+					<div class="col">
+						<p><a href="https://www.facebook.com/TahoKlasiko" class="ref" target="_blank">Taho Klasiko - Main (Maysan, Valenzuela) </a></p>
+						<p><a href="https://www.facebook.com/tahoklasikotondo/" class="ref" target="_blank">Taho Klasiko - Tondo</a></p>
+						<p><a href="https://www.facebook.com/tahoklasikomeycauayan/" class="ref" target="_blank">Taho Klasiko - Meycauayan</a></p>
+						<p><a href="https://www.facebook.com/TahoKlasikoCaloocan/" class="ref" target="_blank">Taho Klasiko - Caloocan</a></p>
+						<p><a href="https://www.facebook.com/TahoKlasikoCommonwealth/" class="ref" target="_blank">Taho Klasiko - Commonwealth</a></p>
+					</div>
+					<div class="col">
+						<p><a href="https://www.facebook.com/tahoklasiko.calumpit/" class="ref" target="_blank">Taho Klasiko - Calumpit</a></p>
+						<p><a href="" class="ref" target="_blank">Taho Klasiko - San Jose Del Monte (relocating)</a></p>
+						<p><a href="https://www.facebook.com/tahoklasikoSPC/" class="ref" target="_blank">Taho Klasiko - San Pablo</a></p>
+						<p><a href="https://www.facebook.com/Taho-Klasiko-Punturin-101054405148203/" class="ref" target="_blank">Taho Klasiko - Punturin</a></p>
+					</div>
+				</div>
+			</section>
+
+			<section id="parallax"></section>
+				
+			<section id="reviews">
+				<h1 class="title">REVIEWS</h1>
+				<p><strong><h2 class="title">What our customers say</h2></strong></p>
+				<div class="rating">
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star checked"></i>
+					<i class="fa fa-star"></i>
+					<p>4.9 average based on 31 reviews.</p>
+				</div>
+				<div class="reviewshow-container">            
+					<div class="myreviews">
+						<q>I love their Cinnamon Rolls and Taho Beverages! I like the fact that their Cinnamon Rolls are sweet and full of flavor. The filling has a punch of cinnamon and the icing is ooey-gooey, not too sweet, but very lush.Their Taho Beverages are delicious and fun to eat. I love how their tofu base is finer than custard which practically disintegrates in my mouth.
+						Great food with reasonable prices. Also Loved how accommodating their staff is. Will Definitely order again ❤️
+						</q>
+						<p class="customer">- Denise Magbitang</p>
+					</div>
+					<div class="myreviews">
+						<q>So happy someone shared this page to me. I am a taho-lover ever since and now I love it even more! Ordered Classic Taho for me and Brown Sugar for the fam. Super saraaaaap! The whole family loved it. We ordered na twice and we'll surely order again! ⭐⭐⭐⭐⭐</q>
+						<p class="customer">- Lei Sison-Cunanan</p>
+					</div>
+					<div class="myreviews">
+						<q>It's really yummy! I can prove that kasi my sister is a picky eater pero she liked it 😂 we ordered milky taho and we’d love to try other flavors next time ☺️ It’s also very easy to order!</q>
+						<p class="customer">-Julianne Kelly Tan</p>
+					</div>
+					<div class="myreviews">
+						<q>Yung nag crave ka nang taho sa maulang panahon. Thanks so much seller, for the smooth transaction. And kahit maulan tuloy ang delivery.
+								Cravings satisfied. Sarap. Highly recommended.</q>
+						<p class="customer">-Sugs MV</p>
+					</div>
+					<div class="myreviews">
+						<q>first time to try and im switching to your taho instead of milktea! healthy na super yummy pa! ❤️</q>
+						<p class="customer">-Zera</p>
+					</div>
+					<div class="myreviews">
+						<q>Classic taho pa lang natikman ko pero mas masarap sya sa ordinary taho. Syempre di pa rin mawawala ung panlasang pinoy na taho. Very affordable pa. Swak sa pang-araw-araw na taste.</q>
+						<p class="customer">-Mary Hazel</p>
+					</div>
+					<div class="myreviews">
+						<q>Ang sarap grabe tapos ang affordable. Yung mga staff din madali kausap to arrange my delivery. I highly recommend them! Try them out!</q>
+						<p class="customer">-Roxanne Flores</p>
+					</div>
+					<a class="prev" onclick="plusreviews(-1)">❮</a>
+					<a class="next" onclick="plusreviews(1)">❯</a>
+				</div>
+				<div class="dot-container">
+					<span class="dot" onclick="currentreview(1)"></span> 
+					<span class="dot" onclick="currentreview(2)"></span> 
+					<span class="dot" onclick="currentreview(3)"></span> 
+					<span class="dot" onclick="currentreview(4)"></span> 
+					<span class="dot" onclick="currentreview(5)"></span> 
+					<span class="dot" onclick="currentreview(6)"></span> 
+					<span class="dot" onclick="currentreview(7)"></span> 
+				</div>
+			</section>
+			
+			<section id="form">
+				<h1 class="title">Get to know our latest products, discounts and deals</h1>
+				<form novalidate name="form" onsubmit="return checkform()" action="https://formcarry.com/s/9o--Qiel3" method="POST" accept-charset="UTF-8">
+					<div class="row4">
+						<div class="col4">
+							<input type="text" placeholder="Name" name="name" id="name" class="no-outline" onchange="nameCheck()">
+							<p id="validation-name"></p>
+						</div>
+						<div class="col4">
+							<input type="email" placeholder="Email address" name="email" id="email" class="no-outline" onchange="emailCheck()">
+							<p id="validation-email"></p>
+						</div>
+					</div>
+					<button type="submit" class="btn" >Yes, Notify me!</button>
+				</form>
+			</section>
+		</div>        
+		<footer><p>©2022 Product Landing Page</p></footer>
+		<script src="assets/js/index.js"></script>
+	</body>
 </html>

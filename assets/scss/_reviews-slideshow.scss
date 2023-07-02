@@ -1,27 +1,21 @@
 #reviews{
   padding-top:120px;
-  //text-align: center;
   background-color:#ffffff;
 }
 
-// reviewshow container 
 .reviewshow-container {
   margin: 5%;
   position: relative;
   padding: 50px;
-  //height: 350px;
   box-shadow: 5px 8px 16px 10px rgba(0,0,0,0.2);
-  //background: #f1f1f1f1;
 }
 
-// reviews 
 .myreviews {
   display: none;
   padding: 80px;
   text-align: center;
 }
 
-// Next & previous buttons 
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -50,7 +44,6 @@
 .dot-container {
     text-align: center;
     padding: 20px;
-    //background: #ddd;
 }
 
 .dot {
@@ -64,12 +57,10 @@
   transition: background-color 0.6s ease;
 }
 
-
 .active, .dot:hover {
   background-color: #956b45;
 }
 
-//itallic for quotes
 q {font-style: italic;}
 
 .customer{

@@ -1,42 +1,38 @@
 #form{
-    background-color:#382829;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    text-align: center;
-  }
-input[type=text],input[type=email],input[type=number] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    }
-    .no-outline:focus {
-        outline: none;
-      }
-
+	background-color:#382829;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	text-align: center;
+}
+input[type=text], input[type=email], input[type=number] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.no-outline:focus {
+	outline: none;
+}
 .btn{
-    background-color:#f6ab4a;
-    color: white;
-    //width: 30%;
-    //border-color:#d39b46;
-    border: none;
-    font: inherit;
-    border-radius: 5px;
-    padding: 10px;
+	background-color:#f6ab4a;
+	color: white;
+	border: none;
+	font: inherit;
+	border-radius: 5px;
+	padding: 10px;
 }
 .btn:hover{
-    background-color:#000000;
-    
+  background-color:#000000;
 }
 #validation-name{
-    color: red;
+  color: red;
 }
 #validation-email{
-    color: red;
+  color: red;
 }
